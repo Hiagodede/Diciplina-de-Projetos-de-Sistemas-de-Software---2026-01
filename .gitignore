@@ -1,0 +1,28 @@
+# Artefactos de compilação e binários
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Diretórios de saída de compilação (Build/Dist)
+build/
+dist/
+nbbuild/
+
+# Ficheiros de configuração local do NetBeans (RISCO CRÍTICO)
+nbproject/private/
+nbproject/Makefile-*.properties
+nbproject/Package-*.bash
+nbactions.xml
+nb-configuration.xml
+
+# Logs e ficheiros temporários da JVM
+*.log
+hs_err_pid*
+replay_pid*
+
+# Artefactos de Sistema Operativo (Windows / macOS)
+.DS_Store
+Thumbs.db
